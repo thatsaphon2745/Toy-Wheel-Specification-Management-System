@@ -1,0 +1,49 @@
+.login-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(120deg, #0b7b89, #3a4aa1, #1d3b6c);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  filter: blur(40px) brightness(0.9);
+  opacity: 0.8;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  width: 8px;
+  height: 8px;
+  animation: moveParticle 20s linear infinite;
+}
+
+@keyframes moveParticle {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-600px) translateX(300px) scale(1.5);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "fgT18NHbNCUg5BwlrY2oNYrQ6KFAczXYtPveE0wyYHE=",
+  "Source": "api",
+  "BasePath": "_content/api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "api\\wwwroot",
+      "Source": "api",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

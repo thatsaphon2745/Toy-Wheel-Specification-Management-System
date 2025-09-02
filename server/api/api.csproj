@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>0052c6e2-09c5-4cd2-a283-a9a232ae6829</UserSecretsId>
+
+    <!-- ✅ ชี้ไปยัง client จาก server\api ต้องถอย 2 ชั้น -->
+    <SpaRoot>..\..\client\</SpaRoot>
+    <SpaDist>$(SpaRoot)dist\</SpaDist>
+
+    <!-- ✅ ข้าม build SPA ได้ด้วย -p:SkipSpaBuild=true -->
+    <SpaSkipBuild Condition="'$(SkipSpaBuild)'=='true'">true</SpaSkipBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.6">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SendGrid" Version="9.29.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <!-- ✅ Build SPA ก่อน publish เฉพาะเมื่อมีโฟลเดอร์ client จริง -->
+  <Target Name="BuildClient"
+          BeforeTargets="PrepareForPublish"
+          Condition="'$(SpaSkipBuild)'!='true' AND Exists('$(SpaRoot)package.json')">
+    <Message Text="=== Building React (Vite) at $(SpaRoot) ===" Importance="high" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm i" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build" />
+  </Target>
+
+  <!-- ✅ คัดลอก dist → wwwroot เฉพาะเมื่อ build แล้วมี dist จริง -->
+  <ItemGroup Condition="Exists('$(SpaDist)')">
+    <DistFiles Include="$(SpaDist)**\*" />
+  </ItemGroup>
+
+  <Target Name="CopyClientDist"
+          AfterTargets="BuildClient"
+          Condition="'$(SpaSkipBuild)'!='true' AND Exists('$(SpaDist)')">
+    <RemoveDir Directories="wwwroot" />
+    <MakeDir Directories="wwwroot" />
+    <Copy SourceFiles="@(DistFiles)" DestinationFolder="wwwroot\%(RecursiveDir)" />
+  </Target>
+
+</Project>

@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\MattelLogo-CgoLKQzY.png",
+      "PackagePath": "staticwebassets\\assets\\MattelLogo-CgoLKQzY.png"
+    },
+    {
+      "Id": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\definitions1-CT1RQP2o.png",
+      "PackagePath": "staticwebassets\\assets\\definitions1-CT1RQP2o.png"
+    },
+    {
+      "Id": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\definitions2-DDKL7Lrb.png",
+      "PackagePath": "staticwebassets\\assets\\definitions2-DDKL7Lrb.png"
+    },
+    {
+      "Id": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\hotwheels-DS-H8ess.png",
+      "PackagePath": "staticwebassets\\assets\\hotwheels-DS-H8ess.png"
+    },
+    {
+      "Id": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\index-A-n2u2OV.js",
+      "PackagePath": "staticwebassets\\assets\\index-A-n2u2OV.js"
+    },
+    {
+      "Id": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\index-CwhEkLbq.css",
+      "PackagePath": "staticwebassets\\assets\\index-CwhEkLbq.css"
+    },
+    {
+      "Id": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\mariokart-CEkGB7dg.png",
+      "PackagePath": "staticwebassets\\assets\\mariokart-CEkGB7dg.png"
+    },
+    {
+      "Id": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\matchbox-B9AEYQ8c.png",
+      "PackagePath": "staticwebassets\\assets\\matchbox-B9AEYQ8c.png"
+    },
+    {
+      "Id": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\pixar-D90xoxYE.png",
+      "PackagePath": "staticwebassets\\assets\\pixar-D90xoxYE.png"
+    },
+    {
+      "Id": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\t_f-B_xLroJ6.png",
+      "PackagePath": "staticwebassets\\assets\\t_f-B_xLroJ6.png"
+    },
+    {
+      "Id": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\vite.svg",
+      "PackagePath": "staticwebassets\\vite.svg"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.api.props",
+      "PackagePath": "build\\api.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.api.props",
+      "PackagePath": "buildMultiTargeting\\api.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.api.props",
+      "PackagePath": "buildTransitive\\api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

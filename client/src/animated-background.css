@@ -1,0 +1,21 @@
+.animated-bg {
+  background-color: #3b82f6;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.08) 0,
+    rgba(255, 255, 255, 0.08) 20px,
+    transparent 20px,
+    transparent 40px
+  );
+  animation: move-bg 10s linear infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes move-bg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100px 100px;
+  }
+}

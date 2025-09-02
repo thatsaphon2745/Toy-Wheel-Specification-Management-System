@@ -1,0 +1,1258 @@
+{
+  "Version": 1,
+  "Hash": "/WDEoBCwP252US0E2PlxqzH6OtuXkTK42L3CVji3yCA=",
+  "Source": "api",
+  "BasePath": "_content/api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "api\\wwwroot",
+      "Source": "api",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\definitions1-CT1RQP2o.png",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "assets/definitions1-CT1RQP2o#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ww0lkyhd7t",
+      "Integrity": "4KPtqohTpM9/4wsApsgjbvn67Wqi1ng2kZ53L62DY1k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\definitions1-CT1RQP2o.png"
+    },
+    {
+      "Identity": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\definitions2-DDKL7Lrb.png",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "assets/definitions2-DDKL7Lrb#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4x5lqdxptd",
+      "Integrity": "OA/q6adisL1FdBPvyX/wL3QyoNjMR6LqE8Am+B2X/mI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\definitions2-DDKL7Lrb.png"
+    },
+    {
+      "Identity": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\hotwheels-DS-H8ess.png",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "assets/hotwheels-DS-H8ess#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q7b6rrjn0v",
+      "Integrity": "ukp2iDs232LOM7aQiAl+ADlS1LikrPgSjWMbuJv130k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\hotwheels-DS-H8ess.png"
+    },
+    {
+      "Identity": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\index-A-n2u2OV.js",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "assets/index-A-n2u2OV#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r25mb1zmb6",
+      "Integrity": "zf2P3A08bhi5iTjFdOrrhSu23/sMXaeS2WbIx6Nj9aQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-A-n2u2OV.js"
+    },
+    {
+      "Identity": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\index-CwhEkLbq.css",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "assets/index-CwhEkLbq#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z1osuputqz",
+      "Integrity": "x2r2JYfxKrJRtzDg5EXH3tW71n+9TBhwNafe7mZXNTk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-CwhEkLbq.css"
+    },
+    {
+      "Identity": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\mariokart-CEkGB7dg.png",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "assets/mariokart-CEkGB7dg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "by57due04h",
+      "Integrity": "414MKYxXtOlEgPxgkqvfr9rMhd88YwhsLpIfDf6eMN8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\mariokart-CEkGB7dg.png"
+    },
+    {
+      "Identity": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\matchbox-B9AEYQ8c.png",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "assets/matchbox-B9AEYQ8c#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4qbl8tjiqr",
+      "Integrity": "nHolW7Nfa2INsVTKfSiPU3PDBYEBhhvt0YWKam+Eask=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\matchbox-B9AEYQ8c.png"
+    },
+    {
+      "Identity": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\MattelLogo-CgoLKQzY.png",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "assets/MattelLogo-CgoLKQzY#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2i8bx4yntq",
+      "Integrity": "yjD9KMf8JQVGpSAasJTQaYSidex/8fBdShqIHCLIhsc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\MattelLogo-CgoLKQzY.png"
+    },
+    {
+      "Identity": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\pixar-D90xoxYE.png",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "assets/pixar-D90xoxYE#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yod1pkxoxe",
+      "Integrity": "bmvpKpcHKYHXnDJley358xErVNprBPilyFo8RQxn/UU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\pixar-D90xoxYE.png"
+    },
+    {
+      "Identity": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\t_f-B_xLroJ6.png",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "assets/t_f-B_xLroJ6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4luahato66",
+      "Integrity": "qF0hVQOLtCfQqc4UCiE29wlx24AD5IGS7EcOtZzCmjE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\t_f-B_xLroJ6.png"
+    },
+    {
+      "Identity": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\index.html",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jjfyawv62z",
+      "Integrity": "L72DjDkM6ZFYEHIGNJAH6+HJEIad8XyJ+PQjzM8EDQ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\vite.svg",
+      "SourceId": "api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\",
+      "BasePath": "_content/api",
+      "RelativePath": "vite#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "69kjnsiwqx",
+      "Integrity": "SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\vite.svg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "assets/definitions1-CT1RQP2o.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\definitions1-CT1RQP2o.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4KPtqohTpM9/4wsApsgjbvn67Wqi1ng2kZ53L62DY1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4KPtqohTpM9/4wsApsgjbvn67Wqi1ng2kZ53L62DY1k="
+        }
+      ]
+    },
+    {
+      "Route": "assets/definitions1-CT1RQP2o.ww0lkyhd7t.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\definitions1-CT1RQP2o.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4KPtqohTpM9/4wsApsgjbvn67Wqi1ng2kZ53L62DY1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ww0lkyhd7t"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/definitions1-CT1RQP2o.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4KPtqohTpM9/4wsApsgjbvn67Wqi1ng2kZ53L62DY1k="
+        }
+      ]
+    },
+    {
+      "Route": "assets/definitions2-DDKL7Lrb.4x5lqdxptd.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\definitions2-DDKL7Lrb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OA/q6adisL1FdBPvyX/wL3QyoNjMR6LqE8Am+B2X/mI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4x5lqdxptd"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/definitions2-DDKL7Lrb.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OA/q6adisL1FdBPvyX/wL3QyoNjMR6LqE8Am+B2X/mI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/definitions2-DDKL7Lrb.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\definitions2-DDKL7Lrb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OA/q6adisL1FdBPvyX/wL3QyoNjMR6LqE8Am+B2X/mI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OA/q6adisL1FdBPvyX/wL3QyoNjMR6LqE8Am+B2X/mI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/hotwheels-DS-H8ess.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\hotwheels-DS-H8ess.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ukp2iDs232LOM7aQiAl+ADlS1LikrPgSjWMbuJv130k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ukp2iDs232LOM7aQiAl+ADlS1LikrPgSjWMbuJv130k="
+        }
+      ]
+    },
+    {
+      "Route": "assets/hotwheels-DS-H8ess.q7b6rrjn0v.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\hotwheels-DS-H8ess.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ukp2iDs232LOM7aQiAl+ADlS1LikrPgSjWMbuJv130k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q7b6rrjn0v"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/hotwheels-DS-H8ess.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ukp2iDs232LOM7aQiAl+ADlS1LikrPgSjWMbuJv130k="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-A-n2u2OV.js",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\index-A-n2u2OV.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1940809"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zf2P3A08bhi5iTjFdOrrhSu23/sMXaeS2WbIx6Nj9aQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zf2P3A08bhi5iTjFdOrrhSu23/sMXaeS2WbIx6Nj9aQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-A-n2u2OV.r25mb1zmb6.js",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\index-A-n2u2OV.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1940809"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zf2P3A08bhi5iTjFdOrrhSu23/sMXaeS2WbIx6Nj9aQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r25mb1zmb6"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-A-n2u2OV.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zf2P3A08bhi5iTjFdOrrhSu23/sMXaeS2WbIx6Nj9aQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-CwhEkLbq.css",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\index-CwhEkLbq.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75405"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x2r2JYfxKrJRtzDg5EXH3tW71n+9TBhwNafe7mZXNTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x2r2JYfxKrJRtzDg5EXH3tW71n+9TBhwNafe7mZXNTk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-CwhEkLbq.z1osuputqz.css",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\index-CwhEkLbq.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75405"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x2r2JYfxKrJRtzDg5EXH3tW71n+9TBhwNafe7mZXNTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z1osuputqz"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-CwhEkLbq.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x2r2JYfxKrJRtzDg5EXH3tW71n+9TBhwNafe7mZXNTk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/mariokart-CEkGB7dg.by57due04h.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\mariokart-CEkGB7dg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "177422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"414MKYxXtOlEgPxgkqvfr9rMhd88YwhsLpIfDf6eMN8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "by57due04h"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/mariokart-CEkGB7dg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-414MKYxXtOlEgPxgkqvfr9rMhd88YwhsLpIfDf6eMN8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/mariokart-CEkGB7dg.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\mariokart-CEkGB7dg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "177422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"414MKYxXtOlEgPxgkqvfr9rMhd88YwhsLpIfDf6eMN8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-414MKYxXtOlEgPxgkqvfr9rMhd88YwhsLpIfDf6eMN8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/matchbox-B9AEYQ8c.4qbl8tjiqr.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\matchbox-B9AEYQ8c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nHolW7Nfa2INsVTKfSiPU3PDBYEBhhvt0YWKam+Eask=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4qbl8tjiqr"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/matchbox-B9AEYQ8c.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nHolW7Nfa2INsVTKfSiPU3PDBYEBhhvt0YWKam+Eask="
+        }
+      ]
+    },
+    {
+      "Route": "assets/matchbox-B9AEYQ8c.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\matchbox-B9AEYQ8c.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nHolW7Nfa2INsVTKfSiPU3PDBYEBhhvt0YWKam+Eask=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nHolW7Nfa2INsVTKfSiPU3PDBYEBhhvt0YWKam+Eask="
+        }
+      ]
+    },
+    {
+      "Route": "assets/MattelLogo-CgoLKQzY.2i8bx4yntq.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\MattelLogo-CgoLKQzY.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41026"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yjD9KMf8JQVGpSAasJTQaYSidex/8fBdShqIHCLIhsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2i8bx4yntq"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/MattelLogo-CgoLKQzY.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yjD9KMf8JQVGpSAasJTQaYSidex/8fBdShqIHCLIhsc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/MattelLogo-CgoLKQzY.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\MattelLogo-CgoLKQzY.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41026"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yjD9KMf8JQVGpSAasJTQaYSidex/8fBdShqIHCLIhsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yjD9KMf8JQVGpSAasJTQaYSidex/8fBdShqIHCLIhsc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/pixar-D90xoxYE.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\pixar-D90xoxYE.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99559"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bmvpKpcHKYHXnDJley358xErVNprBPilyFo8RQxn/UU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bmvpKpcHKYHXnDJley358xErVNprBPilyFo8RQxn/UU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/pixar-D90xoxYE.yod1pkxoxe.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\pixar-D90xoxYE.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99559"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bmvpKpcHKYHXnDJley358xErVNprBPilyFo8RQxn/UU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yod1pkxoxe"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/pixar-D90xoxYE.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bmvpKpcHKYHXnDJley358xErVNprBPilyFo8RQxn/UU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/t_f-B_xLroJ6.4luahato66.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\t_f-B_xLroJ6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qF0hVQOLtCfQqc4UCiE29wlx24AD5IGS7EcOtZzCmjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4luahato66"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/t_f-B_xLroJ6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qF0hVQOLtCfQqc4UCiE29wlx24AD5IGS7EcOtZzCmjE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/t_f-B_xLroJ6.png",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\assets\\t_f-B_xLroJ6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qF0hVQOLtCfQqc4UCiE29wlx24AD5IGS7EcOtZzCmjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qF0hVQOLtCfQqc4UCiE29wlx24AD5IGS7EcOtZzCmjE="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L72DjDkM6ZFYEHIGNJAH6+HJEIad8XyJ+PQjzM8EDQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L72DjDkM6ZFYEHIGNJAH6+HJEIad8XyJ+PQjzM8EDQ0="
+        }
+      ]
+    },
+    {
+      "Route": "index.jjfyawv62z.html",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L72DjDkM6ZFYEHIGNJAH6+HJEIad8XyJ+PQjzM8EDQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 08:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jjfyawv62z"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L72DjDkM6ZFYEHIGNJAH6+HJEIad8XyJ+PQjzM8EDQ0="
+        }
+      ]
+    },
+    {
+      "Route": "vite.69kjnsiwqx.svg",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\vite.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 02:31:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69kjnsiwqx"
+        },
+        {
+          "Name": "label",
+          "Value": "vite.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg",
+      "AssetFile": "C:\\Users\\losuwath\\Desktop\\mbk_barbell_web_app\\server\\api\\wwwroot\\vite.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 02:31:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+.background-container {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: linear-gradient(135deg, #02398a 0%, #417AFF 100%);
+  z-index: -1;
+}
+
+/* ===== squiggle shape ===== */
+.shape-squiggle {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 120px;
+  height: 40px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.3), rgba(255,255,255,0));
+  border-radius: 30px;
+  transform: rotate(-45deg) skewX(40deg);
+  filter: blur(2px);
+  opacity: 0.4;
+  animation: drift 20s linear infinite alternate;
+}
+
+/* ===== ring shape ===== */
+.shape-ring {
+  position: absolute;
+  top: 55%;
+  left: 70%;
+  width: 150px;
+  height: 150px;
+  border: 20px solid rgba(255,255,255,0.1);
+  border-radius: 50%;
+  filter: blur(4px);
+  opacity: 0.3;
+  animation: rotate 30s linear infinite;
+}
+
+/* ===== wave shape ===== */
+.shape-wave {
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+  width: 200px;
+  height: 40px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.2), rgba(255,255,255,0));
+  border-radius: 50px;
+  transform: skewX(-45deg);
+  opacity: 0.4;
+  animation: drift 15s ease-in-out infinite alternate;
+}
+
+/* ===== curved blob shape ===== */
+.shape-blob {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  width: 100px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50% 50% 50% 50% / 60% 30% 70% 40%;
+  filter: blur(3px);
+  opacity: 0.3;
+  animation: blobMove 25s ease-in-out infinite alternate;
+}
+
+/* ===== floating oval shape ===== */
+.shape-oval {
+  position: absolute;
+  bottom: 20%;
+  left: 15%;
+  width: 80px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 50px;
+  transform: rotate(-20deg);
+  filter: blur(2px);
+  opacity: 0.35;
+  animation: drift 18s linear infinite alternate;
+}
+
+/* ===== animations ===== */
+@keyframes rotate {
+  0% { transform: rotate(0deg) scale(1);}
+  100% { transform: rotate(360deg) scale(1);}
+}
+
+@keyframes drift {
+  0% { transform: translate(0, 0) rotate(-20deg);}
+  100% { transform: translate(50px, -50px) rotate(20deg);}
+}
+
+@keyframes blobMove {
+  0% { transform: translate(0, 0) rotate(0deg);}
+  100% { transform: translate(-100px, 50px) rotate(30deg);}
+}
+
+
+.logo-container {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  flex-direction: row;   /* ← จาก column → row */
+  gap: 12px;             /* เว้นระยะระหว่างรูป */
+  align-items: center;
+  z-index: 10;
+}
+
+.logo-img {
+  /* height: 50px;          ปรับความสูงให้เท่ากัน
+  width: auto; */
+  max-width: 80px;
+  height: auto;
+  opacity: 0.8;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.logo-img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+
+
+
+/* ===== Rectangle shape ===== */
+.shape-rectangle {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 4px;
+  filter: blur(2px);
+  animation: moveRect 12s linear infinite alternate;
+}
+
+@keyframes moveRect {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  100% { transform: translate(60px, -30px) rotate(15deg); }
+}
+
+/* ===== Circle shape ===== */
+.shape-circle {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  filter: blur(4px);
+  animation: moveCircle 15s ease-in-out infinite alternate;
+}
+
+@keyframes moveCircle {
+  0% { transform: translate(0, 0) scale(1);}
+  100% { transform: translate(-50px, 40px) scale(1.2);}
+}
+
+/* ===== Pill shape ===== */
+.shape-pill {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50px;
+  filter: blur(3px);
+  animation: movePill 18s ease-in-out infinite alternate;
+}
+
+@keyframes movePill {
+  0% { transform: translate(0, 0) rotate(0deg);}
+  100% { transform: translate(40px, -60px) rotate(45deg);}
+}

@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-800;
+}
+/* Remove eye toggle from Chrome/Edge */
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+input::-webkit-credentials-auto-fill-button {
+  display: none;
+}
+
+input::-webkit-textfield-decoration-container {
+  display: none;
+}
+
+input::-webkit-clear-button {
+  display: none;
+}
