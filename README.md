@@ -6,7 +6,7 @@ A full-stack internal web system for managing wheel and tool specifications, des
 
 ## 🧠 Documentation & Architecture
 
-- 🔗 **ER Diagram**: [View ER Diagram on dbdiagram.io](https://dbdiagram.io/d/MBK_BARBELL_final-686f24d5f413ba3508263c50)
+- 🔗 **ER Diagram**: [View ER Diagram on dbdiagram.io]
 ---
 
 ## 📦 Features
